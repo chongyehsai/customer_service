@@ -4,3 +4,4 @@ speechrecognition
 textblob
 numpy
 ffmpeg
+ffprobe

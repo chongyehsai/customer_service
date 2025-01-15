@@ -3,3 +3,4 @@ pydub
 speechrecognition
 textblob
 numpy
+ffmpeg

@@ -52,7 +52,7 @@ st.write("Upload an MP3 file to analyze its content.")
 uploaded_file = st.file_uploader("Choose an MP3 file", type="mp3")
 
 # Keywords input
-keywords_input = st.text_input("Enter keywords (comma-separated):", "hello", "thank", "help", "please", "good", "bye", "resolved", "welcome")
+keywords_input = st.text_input("Enter keywords (comma-separated):", "hello, thank, help, please, good, bye, resolved, welcome")
 keywords = [keyword.strip() for keyword in keywords_input.split(",")]
 
 if uploaded_file is not None:
